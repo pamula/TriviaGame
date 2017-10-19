@@ -1,0 +1,102 @@
+html{
+	background:url(http://www.lensbury.com/wp-content/uploads/2012/03/lensbury-quiz.jpg) no-repeat center center fixed;
+	
+	- moz -background-size: cover;
+	-o -background-size: cover;
+	background-size: cover;
+	
+	
+
+
+}
+.container{
+	text-align: center;
+	color:white;
+	float:right;
+	border-radius: 10px;
+	
+	font-family: 'Baloo Chettan',cursive;
+	font-weight: bold;
+
+}
+
+#button{
+	
+margin-right: 30px;
+font-weight: bold;
+color:orange;
+width:180px;
+font-size: 30px;
+font-family: cursive;
+}
+
+
+img{
+	width:200px;
+	height:200px;
+	column-gap: 50px;
+	border: 3px;
+	margin-right: -5%;
+	
+	
+}
+.wrapper{
+	float: right;
+	margin-right: 10%;
+	margin-top: 100px;
+	display: none;
+}
+
+	
+
+p,ul{
+	color:brown;
+	font-family: cursive;
+	font-weight: medium;
+}
+.wrapper1{
+	display:none;
+	background-color: orange;
+	height:750px;
+
+}
+.wrapper2{
+	display:none;
+	background-color: orange;
+	height:700px;
+}
+#button1,#button2{
+	background-color: green;
+	width:40%;
+	text-align: center;
+	font-size:20px;
+	padding:5px;
+	margin-left: 20%;
+}
+h3,h4{
+	color:green;
+}
+#button3:hover {
+	background: green;
+	border:1px solid skyblue;
+color:black;
+cursor:pointer;
+}
+#after_submit{
+	visibility: hidden;
+	background: gold;
+	padding:10px 20px 10px 20px;
+	width:400px;
+	border-radius: 20px;
+	float:left;
+	
+	font-size: 30px;
+	position:relative;
+
+	margin-left:10%; 
+	clear:both;
+	bottom:548px;
+	right:526px;
+
+}
+
