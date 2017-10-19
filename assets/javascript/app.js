@@ -13,9 +13,10 @@ $('#img2').click(function(){
 	$('.wrapper').hide();
 });
 
-var number = 30;
+var number = 20;
 var intervalId;
  $("#button1").on("click", run);
+
 
  $("#button2").on("click", run);
  
