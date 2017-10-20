@@ -67,13 +67,13 @@ function run() {
     	var question4 = document.quiz1.question4.value;
     	var correct =0 ;
 
-    	if (question1 == "march"){
+    	if (question1 === "march"){
     		correct++ ;
     	}
-    	if(question2 == "Yellowstone National Park in U.S."){
+    	if(question2 === "Yellowstone National Park in U.S."){
     		correct++;
     	}
-    	if(question3 == "Saint Francis"){
+    	if(question3 === "Saint Francis"){
     		correct++;
     	}
     	if(question4 == "all of the above"){
@@ -116,13 +116,13 @@ function run() {
     	
     	var correct =0 ;
 
-    	if (question1 == "Wrong prescription or dose"){
+    	if (question1 === "Wrong prescription or dose"){
     		correct++ ;
     	}
-    	if(question2 == "300"){
+    	if(question2 === "300"){
     		correct++;
     	}
-    	if(question3 == "laughing"){
+    	if(question3 === "laughing"){
     		correct++;
     	}
     	
