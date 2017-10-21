@@ -19,6 +19,7 @@ var intervalId;
 
 
  $("#button2").on("click", run);
+ // $("#button3").on("click",stop);
  
   
 
@@ -51,6 +52,7 @@ function run() {
 
     //  The stop function
     function stop() {
+        console.log('text');
 
       //  Clears our intervalId
       //  We just pass the name of the interval
@@ -61,6 +63,7 @@ function run() {
 
     // function for quiz1
     function check(){
+        stop();
     	var question1 = document.quiz1.question1.value;
     	var question2 = document.quiz1.question2.value;
     	var question3 = document.quiz1.question3.value;
@@ -110,6 +113,7 @@ function run() {
 
     // function for quiz 2..
     function check1(){
+        stop();
     	var question1 = document.quiz2.question1.value;
     	var question2 = document.quiz2.question2.value;
     	var question3 = document.quiz2.question3.value;
